@@ -17,6 +17,15 @@ Project such as hb-api depending on hb-geo-model require artifact (binary jar) t
 
     act publish-local
 
+# Scala and Play versisons targets
+build.sbt contains configurations to build both binary distributions for: 
+
+    Scala 2.10, Play 2.2-2.4 
+    Scala 2.11, Play 2.5 
+
+Just comment / uncomment the related `scalaVersion` and `libraryDependencies` lines.
+
+
 # IDE integration
 
 ## Eclipse
